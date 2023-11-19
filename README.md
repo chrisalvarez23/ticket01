@@ -22,12 +22,14 @@ Install Composer
 2. Apache Php.ini uncomment: extension=intl
 3. Apache Httpd.conf uncomment: Rewrite _module modules/mod_rewrite.so
 4. Import SQL file from github repo to mySQL server
+   
 	a. Open command prompt(CMD) and navigate to your htdocs folder under XAMMP
-	b. type: composer create create-project codeigniter4/starter cidemo
-5. Paste the downloaded files from github to the cidemo project folder (overwrite all files and folder)
-6. Open VS Studio Code
-7. Open  cidemo project folder
-8. Edit the .env file 
+	b. type: composer create create-project codeigniter4/starter cidem
+
+6. Paste the downloaded files from github to the cidemo project folder (overwrite all files and folder)
+7. Open VS Studio Code
+8. Open  cidemo project folder
+9. Edit the .env file
  	a. edit the Database connection credential
 
 #How to use the ticketing application
